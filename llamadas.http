@@ -1,0 +1,15 @@
+###
+get http://localhost:30001/
+
+
+###
+post http://localhost:30001/modelo
+Content-Type: application/json
+Authorization: upana for the win
+
+{
+        "sepal_longitud":5.1,
+    "sepal_ancho": 2.5,
+    "petal_longitud":3.0,
+    "petal_ancho":1.1
+}
